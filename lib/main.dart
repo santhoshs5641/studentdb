@@ -2,10 +2,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:student_record/models/student_model.dart';
-import 'package:student_record/views/Home_Screen/home_screen.dart';
+import 'package:student_db/home_screen.dart';
+import 'package:student_db/student_model.dart';
 
-import 'views/addstudent_screen/addstudent.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
